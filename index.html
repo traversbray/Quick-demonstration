@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coding Challenge</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <!-- BootStrap 3 -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container" id="boxContainer">
+        <h1 class="site-header">Click a button to change the color of each box to the corresponding button you clicked </h1>
+        <hr>
+        <h2 class="site-subheader">Click reset to change the boxes back to default color</h2>
+        <div class="row colorbox-wrapper">
+            <div class="col-md-3 box-size color-box" id="redBox">
+                <div class="btn-wrapper">
+                    <button class="box-button" id="redBoxButton">Red</button>
+                </div>
+            </div>
+            <div class="col-md-3 box-size color-box" id="greenBox">
+                <div class="btn-wrapper">
+                    <button class="box-button" id="greenBoxButton">Green</button>
+                </div>
+            </div>
+            <div class="col-md-3 box-size color-box" id="blueBox">
+                <div class="btn-wrapper">
+                    <button class="box-button" id="blueBoxButton">Blue</button>
+                </div>
+            </div>
+            <div class="col-md-3 box-size reset-box" id="whiteBox">
+                <div class="btn-wrapper">
+                    <button class="box-button" id="whiteBoxButton">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+  </html>
