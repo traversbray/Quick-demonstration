@@ -81,25 +81,26 @@ body {
   margin: auto;
   padding: 0 25px;
   text-transform: none;
+  border: none;
 }
-/* line 68, ../sass/_index.scss */
+/* line 69, ../sass/_index.scss */
 #boxContainer .colorbox-wrapper .box-size .btn-wrapper .box-button:hover {
   box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
   background-color: #fafafb;
 }
-/* line 75, ../sass/_index.scss */
+/* line 76, ../sass/_index.scss */
 #boxContainer .colorbox-wrapper #redBox {
   background-color: red;
 }
-/* line 78, ../sass/_index.scss */
+/* line 79, ../sass/_index.scss */
 #boxContainer .colorbox-wrapper #greenBox {
   background-color: green;
 }
-/* line 81, ../sass/_index.scss */
+/* line 82, ../sass/_index.scss */
 #boxContainer .colorbox-wrapper #blueBox {
   background-color: blue;
 }
-/* line 84, ../sass/_index.scss */
+/* line 85, ../sass/_index.scss */
 #boxContainer .colorbox-wrapper #whiteBox {
   background-color: white;
 }
